@@ -1,0 +1,84 @@
+.order--tab {
+
+    .order--wrapper {
+        row-gap: 25px;
+
+        .order--card {
+            border: 1px solid #ccc;
+
+
+            .card--desc {
+                padding: 15px 20px;
+            }
+        }
+    }
+
+    .card-img {
+        width: 210px;
+        height: 200px;
+        max-width: max-content;
+
+        img {
+            object-fit: contain;
+        }
+    }
+
+    .tab-wrapper {
+        .MuiTabs-flexContainer {
+            align-items: center;
+        }
+    }
+}
+
+.view--cart-btn {
+    .btn {
+        color: rgba(255, 255, 255, 1);
+        background-color: rgb(153, 141, 143);
+        border-radius: 0;
+        padding: 6px 15px;
+        width: 170px;
+        font-weight: 300;
+    }
+}
+
+
+.modal--wrapper {
+
+    .modal-content {
+
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #ffaa8a;
+            border-radius: 10px;
+        }
+
+
+    }
+
+    .modal--img {
+        height: fit-content;
+        object-fit: contain;
+    }
+
+    .modal--desc {
+        padding: 10px 15px;
+
+        h2 {
+            margin: 0;
+        }
+
+        .modal--btn {
+            button {
+                border-radius: 0;
+                border: 1px solid #000;
+            }
+        }
+    }
+}

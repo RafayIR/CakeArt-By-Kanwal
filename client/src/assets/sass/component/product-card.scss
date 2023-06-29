@@ -1,0 +1,19 @@
+.product--card-wrapper{
+
+    .card--img{
+        height: 330px;
+    }
+
+
+    .btn-primary{
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 0;
+        font-size: 13px;
+
+        :hover{
+            background-color: rgba(25, 118, 210, 0.04);
+            border: 1px solid rgba(25, 118, 210, 0.04);
+        }
+    }
+}

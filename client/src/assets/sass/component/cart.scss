@@ -1,0 +1,31 @@
+.cart--wrapper {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(41, 35, 37, 0.4);
+
+    .cart--desc {
+        border:  1px solid rgba(41, 35, 37, 0.4);
+        padding: 5px 15px;
+        margin-bottom: 15px;
+
+        h2 {
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}
+
+.cart--btn {
+    padding: 10px 15px;
+    margin-top: 20px;
+
+    .btn {
+        color: rgb(255, 255, 255);
+        background-color: rgb(153, 141, 143);
+        border-radius: 0;
+        line-height: 20px;
+        padding: 10px 15px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,24 @@
+.image--widget {
+    
+    .img--wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cakes--heading {
+        text-align: center;
+
+        h2 {
+            line-height: 40px;
+        }
+    }
+
+    .order--btn {
+        text-align: center;
+
+        .btn {
+
+            border-radius:0;
+        }
+    }
+}

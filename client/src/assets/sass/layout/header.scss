@@ -1,0 +1,56 @@
+.header--wrapper {
+
+    border-bottom: 2px solid #000;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 5;
+
+
+    .navbar-list {
+        ul {
+
+            display: inline-flex;
+            width: 100%;
+            justify-content: space-around;
+
+            li {
+                margin-right: 20px;
+
+                a {
+                    color: #000;
+                    font-weight: 300;
+                    transition: 0.2s ease-in-out;
+                }
+                
+
+                &.active {
+                    a {
+                        transition: 0.2s ease-in-out;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    .app--bar {
+        .app--logo {
+            width: 50px;
+            height: 50px;
+        }
+
+        .header--social-list {
+
+            display: inline-flex;
+
+            li {
+                margin-left: 10px;
+            }
+        }
+
+    }
+
+}
