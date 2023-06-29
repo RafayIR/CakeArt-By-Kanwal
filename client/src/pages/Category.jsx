@@ -1,5 +1,5 @@
 import Header from '../components/Header/Header'
-import OrderTab from '../components/OrderTab/OrderTab.Jsx'
+import OrderTab from '../components/OrderTab/OrderTab'
 import { Box, Container } from '@mui/material'
 import Footer from '../components/Footer/Footer'
 
