@@ -19,7 +19,7 @@ const cardData = [
     },
     {
         id : 4,
-        image : 'dist/src/assets/images/cake-img-4.jpg',
+        image : 'dist/assets/images/cake-img-4.jpg',
         title : 'Chocolate Fudge Cake',
         desc : 'This is mast cake , you should try it.'
     }
