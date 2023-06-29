@@ -1,19 +1,19 @@
 const cardData = [
     {
         id : 1,
-        image : 'dist/src/assets/images/cake-img-1.jpg',
+        image : 'assets/images/cake-img-1.jpg',
         title : 'Forest Cake',
         desc : 'This is mast cake , you should try it.'
     },
     {
         id : 2,
-        image : 'dist/src/assets/images/cake-img-5.jpg',
+        image : 'assets/images/cake-img-5.jpg',
         title : 'Black Forest',
         desc : 'This is mast cake , you should try it.'
     },
     {
         id : 3,
-        image : 'dist/src/assets/images/cake-img-7.jpg',
+        image : 'assets/images/cake-img-7.jpg',
         title : 'PineApple Cake',
         desc : 'This is mast cake , you should try it.'
     },
