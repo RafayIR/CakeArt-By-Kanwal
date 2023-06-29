@@ -4,7 +4,7 @@ import ImageWidget from '../components/ImageWidget/ImageWidget'
 import InstagramWidget from '../components/InstagramWidget/InstagramWidget'
 import Footer from '../components/Footer/Footer'
 import ProductCard from '../components/ProductCard/ProductCard'
-import FeatureCake from '../components/featureCake/featureCake'
+import FeatureCake from '../components/FeatureCake/FeatureCake'
 import { Box } from '@mui/material'
 
 
