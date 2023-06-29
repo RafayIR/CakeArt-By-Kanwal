@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '@mui/material/Container';
 import { Grid } from '@mui/material';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import Social from './Social';
 import logo from '../../assets/images/logo/logo.jpg'
 import { Link } from 'react-router-dom';
