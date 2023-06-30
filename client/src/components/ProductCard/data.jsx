@@ -13,7 +13,7 @@ const cardData = [
     },
     {
         id : 3,
-        image : '/assets/images/cake-img-7.jpg',
+        image : 'assets/images/cake-img-7.jpg',
         title : 'PineApple Cake',
         desc : 'This is mast cake , you should try it.'
     },
