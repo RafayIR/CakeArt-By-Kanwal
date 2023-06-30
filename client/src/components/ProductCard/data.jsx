@@ -13,13 +13,13 @@ const cardData = [
     },
     {
         id : 3,
-        image : '/assets/images/cake-img-7.jpg',
+        image : 'assets/images/cake-img-7.jpg',
         title : 'PineApple Cake',
         desc : 'This is mast cake , you should try it.'
     },
     {
         id : 4,
-        image : '../../assets/images/cake-img-4.jpg',
+        image : '../../../src/assets/images/cake-img-4.jpg',
         title : 'Chocolate Fudge Cake',
         desc : 'This is mast cake , you should try it.'
     }
