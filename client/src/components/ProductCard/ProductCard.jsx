@@ -9,6 +9,7 @@ import Button from '@mui/material/Button';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from 'react-router-dom';
 
 function ProductCard() {
     const settings = {
@@ -55,9 +56,11 @@ function ProductCard() {
                                                 <Typography variant="body2" color="text.secondary">
                                                     {product.desc}
                                                 </Typography>
-                                                <Button className='btn btn-primary' variant="outlined" sx={{ marginTop: '20px' }} size="medium">
-                                                    Order
-                                                </Button>
+                                                <Link to={'/category'}>
+                                                    <Button className='btn btn-primary' variant="outlined" sx={{ marginTop: '20px' }} size="medium">
+                                                        Order
+                                                    </Button>
+                                                </Link>
                                             </CardContent>
                                         </Card>
                                     </Grid>
