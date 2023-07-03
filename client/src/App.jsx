@@ -5,6 +5,7 @@ import CheckOut from "./pages/CheckOut";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './assets/sass/all.scss'
 import { useState } from "react";
+import Contact from "./pages/Contact";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
                     <Route exact path="/" element={<Home />}></Route>
                     <Route path="/category" element={<Order sendData={handleOrderDetails} setdrawer={toggleDrawer} cartItemsLength={cartItemsLength} />}></Route>
                     <Route path="/checkout"  element={<CheckOut data={cartItems}  cartItemsLength={cartItemsLength}/>}></Route>
+                    <Route path="/contact" element={<Contact />}></Route>
                 </Routes >
             <Cart data={cartData} getCartItems={getCartItems} updateCartItemsLength={updateCartItemsLength} onClose={() => toggleDrawer(false)} open={isDrawerOpen} />
             </BrowserRouter >

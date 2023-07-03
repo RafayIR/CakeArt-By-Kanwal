@@ -19,7 +19,7 @@ function Navbar() {
         },
         {
             name: "Contact",
-            url: 'contact'
+            url: '/contact'
         }
     ]
 
